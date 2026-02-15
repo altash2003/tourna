@@ -1,0 +1,19 @@
+{
+  "name": "mlbb-tourney-organizer",
+  "version": "1.0.0",
+  "description": "MLBB Tournament Organizer (30 players -> randomized teams -> randomized groups) hosted on Railway",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.5.3"
+  }
+}
